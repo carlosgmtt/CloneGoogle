@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+}
+
+header a {
+    margin: 5px;
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 150px;
+}
+
+/* Barra de búsqueda */
+#search-input {
+    width: 500px;
+    max-width: 90%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Sombra al pasar el cursor o escribir */
+#search-input:hover,
+#search-input:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+/* Contenedor y estilo de los botones */
+.buttons {
+    margin-top: 25px;
+}
+
+.buttons button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
